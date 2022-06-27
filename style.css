@@ -1,0 +1,62 @@
+h1{
+    color: white;
+    font-family: 'Smooch', cursive;
+}
+body{
+    background-image:url(https://images.unsplash.com/photo-1464454709131-ffd692591ee5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80);
+    background-size: cover;
+}
+.rsp{
+    background-color: aliceblue;
+    border:1px solid orange;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 16px;
+    width: 300px;
+}
+.img{
+    width: 100%;
+    border-radius: 13px;
+}
+.btn{
+    padding: 13px 15px;
+    background-color: red;
+    color: white;
+    font-family: 'smooch',cursive;
+    border-radius: 13px;
+   
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.demo{
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: tomato;
+    animation-name: demo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+.footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	text-align:center;
+}
+
+@keyframes demo{
+    from{}
+    to{
+        height: 130px;
+        width: 130px;
+        transform: rotate(360deg);
+        margin-left: 1100px;
+
+    }
+    
+}
